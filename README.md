@@ -34,9 +34,7 @@ Ajoutez un div avec l’id "cadreJokerlyADS" dans votre page + "VPmodal" pour fa
 </div>
 ```
 
-Le design CSS est généré automatiquement lors de l’initialisation de Viewpay, ainsi vous n’êtes pas obligés de rajouter du CSS. Cependant, si vous devez changer le design, votre CSS sera pris en priorité. Pour ceci, donnez à ce div les dimensions que vous souhaitez attribuer à Viewpay, en veillant à conserver un ratio largeur/hauteur de 1,44.
-Nous imposons 650x450 pour du desktop et de le centrer horizontalement et verticalement.
-Voici donc le CSS qui chargeons nous-même :
+Voici le CSS de ces éléments : 
 
 ```css
 #cadreJokerlyADS{
@@ -78,7 +76,7 @@ Voici donc le CSS qui chargeons nous-même :
     z-index: 1000;
 }
 ```
-Si vous souhaitez modifier l'une de ces données, n'hésitez pas à contacter votre contact ViewPay
+NB: pour toutes question concernant des adaptations du CSS, merci de prendre contact avec l'équipe ViewPay. 
 
 
 La présence d'un fond sombre autour du système Viewpay permet d’optimiser l’expérience utilisateur. Voici un exemple du rendu:  
