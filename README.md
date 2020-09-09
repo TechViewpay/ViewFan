@@ -147,7 +147,22 @@ Voici le code à intégrer dans une balise script :
 </script>
  ```
 
-Pour débloquer l’article, insérez dans le VPcompleteAds(), votre fonction/code permettant de débloquer l’article.
+Si vous voulez afficher un message de remerciement, insérez dans le VPcompleteAds() votre fonction/code correspondant.
+
+Par exemple : 
+```html
+function VPcompleteAds(){ 
+	var btn = document.getElementById("btnShowViewPay");
+	btn.style.display="none";
+	var thankyoutext = document.createElement("p");
+	thankyoutext.style.textAlign="center";
+	thankyoutext.style.fontWeight="bolder";
+	thankyoutext.style.fontSize="x-large";	
+	thankyoutext.innerHTML = "&#127881; La Tribune vous remercie pour votre soutien ! &#127881;";
+	btn.parentNode.insertBefore(thankyoutext,btn.nextSibling);
+}
+```
+![sample](https://cdn.jokerly.com/images/logosVP/exemple_ViewPayFansMerci.png)
 
 NB: La fonction VPinitVideo(), que vous avez configurée avec votre identifiant Viewpay (site_id), doit être appelée en amont de l’apparition du système Viewpay, afin de permettre à notre système d’aller interroger le catalogue de publicités pour trouver le contenu adapté. 
 
