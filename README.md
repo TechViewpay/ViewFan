@@ -5,7 +5,7 @@ Pour rappel, Viewpay est une solution de micro-paiement par l'attention publicit
 
 Voici un exemple du widget ViewPay Fans en pied d'article : 
 
-![sample](https://github.com/TechViewpay/ViewPay-iOS/blob/master/DocImages/parcours_vp_mobile3.png?raw=true)
+![sample](https://cdn.jokerly.com/images/logosVP/exemple_ViewPayFans.png)
 
 ## Chargement du Javascript
 ```html
