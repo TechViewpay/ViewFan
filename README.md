@@ -5,7 +5,7 @@ Pour rappel, Viewpay est une solution de micro-paiement par l'attention publicit
 
 Voici un exemple du widget ViewPay Fans en pied d'article : 
 
-![sample](https://cdn.jokerly.com/images/logosVP/exemple_ViewPayFans.png)
+![sample](https://cdn.jokerly.com/images/logosVP/exemple_ViewPayFans.png?raw=true)
 
 ## Chargement du Javascript
 ```html
@@ -162,7 +162,8 @@ function VPcompleteAds(){
 	btn.parentNode.insertBefore(thankyoutext,btn.nextSibling);
 }
 ```
-![sample](https://cdn.jokerly.com/images/logosVP/exemple_ViewPayFansMerci.png)
+Voici ce que ce code donne : 
+![sample](https://cdn.jokerly.com/images/logosVP/exemple_ViewPayFansMerci.png?raw=true)
 
 NB: La fonction VPinitVideo(), que vous avez configurée avec votre identifiant Viewpay (site_id), doit être appelée en amont de l’apparition du système Viewpay, afin de permettre à notre système d’aller interroger le catalogue de publicités pour trouver le contenu adapté. 
 
@@ -216,4 +217,4 @@ JKFBASQ.init({
 // Ce que vous recevrez dans le callback : 
 http://your.callback.url/callback_page.html?...&editor_id={your_editorID}&dynamicParameter=012345aze
 ```
-IMPORTANT : Afin que la transaction ait bien lieu, notre serveur attend de recevoir une réponse HTTP valide avec le statut 200 (OK).
+IMPORTANT : Pour valider la transaction, notre serveur attend une réponse HTTP valide avec le statut 200 (OK).
