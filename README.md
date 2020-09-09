@@ -162,7 +162,6 @@ function VPcompleteAds(){
 	btn.parentNode.insertBefore(thankyoutext,btn.nextSibling);
 }
 ```
-Voici ce que ce code donne : 
 ![sample](https://cdn.jokerly.com/images/logosVP/exemple_ViewPayFansMerci.png?raw=true)
 
 NB: La fonction VPinitVideo(), que vous avez configurée avec votre identifiant Viewpay (site_id), doit être appelée en amont de l’apparition du système Viewpay, afin de permettre à notre système d’aller interroger le catalogue de publicités pour trouver le contenu adapté. 
