@@ -37,6 +37,9 @@ Ajoutez un div avec l’id "cadreJokerlyADS" dans votre page + "VPmodal" pour fa
 Voici le CSS de ces éléments : 
 
 ```css
+#btnShowViewPay{
+	display:none;
+}
 #cadreJokerlyADS{
 	margin: auto;
 	top: 0;
@@ -118,7 +121,7 @@ Voici le code à intégrer dans une balise script :
 	}
 		
 	function VPexistAds(){
-		alert("existAds");
+		console.log("existAds");
 		document.getElementById("btnShowViewpay").style.display = "block";
 	}
 	function VPloadAds(){
@@ -131,17 +134,17 @@ Voici le code à intégrer dans une balise script :
 		console.log("VPNoAds");
 	}
 	function VPcompleteAds(){
-		alert("VPCompleteAds");
-   	document.getElementById("cadre").style.display = 'none';
+		console.log("VPCompleteAds");
+   	        document.getElementById("cadre").style.display = 'none';
 		/*Une fois la pub finie, le code permettant de débloquer l’article doit se situer ici*/
 	}
 	function VPcloseAds(){
-		alert("closeAds");
-   	document.getElementById("modal").style.display = 'none';
+		console.log("closeAds");
+   	        document.getElementById("modal").style.display = 'none';
 	}
 	function VPplayAds(){
-    console.log("VPPlayAds");
-  }
+    		console.log("VPPlayAds");
+	}
 </script>
  ```
 
