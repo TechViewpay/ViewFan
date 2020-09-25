@@ -22,7 +22,7 @@ NB: Il faut placer le script le plus haut possible dans la page afin d’optimis
 <strong><mark>
 Cet article vous a plu ? Pour nous permettre de continuer à financer la mise à disposition d’articles gratuits, vous pouvez regarder une courte publicité de votre choix en cliquant sur le bouton ci-dessous. Merci de votre soutien !
 </mark></strong>
-<button id="btnShowViewPay" onclick="VPloadAds()" style="background: url(&quot;http://cdn-stg.jokerly.com/siteDemo/img/minilogo.png&quot;) 10px center no-repeat rgb(27, 187, 236); padding-left: 30px; text-align: center; width: 50%; margin: 10px 25%;">Soutenez le site en visionnant une publicité</button>
+<button id="btnShowViewPay" onclick="VPloadAds()" style="background: url(&quot;https://cdn-stg.jokerly.com/siteDemo/img/minilogo.png&quot;) 10px center no-repeat rgb(27, 187, 236); padding-left: 30px; text-align: center; width: 50%; margin: 10px 25%;">Soutenez le site en visionnant une publicité</button>
 </p></div>
 ```
 
@@ -113,7 +113,7 @@ Voici le code à intégrer dans une balise script :
 			complete_callback : VPcompleteAds,
 			close_callback : VPcloseAds,
 			play_callback : VPplayAds,
-			cover:true,
+			cover:false,
 		});
 	}
 		
