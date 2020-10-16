@@ -1,9 +1,9 @@
-# ViewPay Fans HTML5: Guide de démarrage
-Ce guide a pour objectif de vous guider dans la mise en place du widget JS ViewPay Fans dans votre site web.
+# ViewFans HTML5: Guide de démarrage
+Ce guide a pour objectif de vous guider dans la mise en place du widget JS ViewFans dans votre site web.
 
 Pour rappel, Viewpay est une solution de micro-paiement par l'attention publicitaire, qui permet à l'utilisateur de soutenir un éditeur ou créateur de contenu digital en regardant une publicité.
 
-Voici un exemple du widget ViewPay Fans en pied d'article : 
+Voici un exemple du widget ViewFans en pied d'article : 
 
 ![sample](https://cdn.jokerly.com/images/logosVP/exemple_ViewPayFans.png?raw=true)
 
