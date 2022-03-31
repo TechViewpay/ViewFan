@@ -135,12 +135,12 @@ Voici le code à intégrer dans une balise script :
 	}
 	function VPcompleteAds(){
 		console.log("VPCompleteAds");
-   	        document.getElementById("cadre").style.display = 'none';
+   	        document.getElementById("VPmodal").style.display = 'none';
 		/*Une fois la pub finie, le code permettant de débloquer l’article doit se situer ici*/
 	}
 	function VPcloseAds(){
 		console.log("closeAds");
-   	        document.getElementById("modal").style.display = 'none';
+   	        document.getElementById("VPmodal").style.display = 'none';
 	}
 	function VPplayAds(){
     		console.log("VPPlayAds");
